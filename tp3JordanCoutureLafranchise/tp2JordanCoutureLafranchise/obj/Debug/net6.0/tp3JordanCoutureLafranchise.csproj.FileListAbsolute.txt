@@ -922,3 +922,5 @@ X:\Ecole\6216948_PWT_TP1\tp3JordanCoutureLafranchise\tp2JordanCoutureLafranchise
 X:\Ecole\6216948_PWT_TP1\tp3JordanCoutureLafranchise\tp2JordanCoutureLafranchise\obj\Debug\net6.0\tp3JordanCoutureLafranchise.csproj.CopyComplete
 X:\Ecole\6216948_PWT_TP1\tp3JordanCoutureLafranchise\tp2JordanCoutureLafranchise\obj\Debug\net6.0\tp3JordanCoutureLafranchise.genruntimeconfig.cache
 X:\Ecole\6216948_PWT_TP1\tp3JordanCoutureLafranchise\tp2JordanCoutureLafranchise\obj\Debug\net6.0\ref\tp3JordanCoutureLafranchise.dll
+X:\Ecole\6216948_PWT_TP1\tp3JordanCoutureLafranchise\tp2JordanCoutureLafranchise\bin\Debug\net6.0\Castle.Core.dll
+X:\Ecole\6216948_PWT_TP1\tp3JordanCoutureLafranchise\tp2JordanCoutureLafranchise\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
