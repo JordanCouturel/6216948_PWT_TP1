@@ -1,15 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using tp2JordanCoutureLafranchise.Models;
+using tp2JordanCoutureLafranchise.Models.Data;
 
 namespace tp2JordanCoutureLafranchise.Controllers
 {
     public class HomeController : Controller
     {
 
-        private BaseDeDonnees _BaseDonnees { get; set; }
+        private HockeyRebelsDBContext _BaseDonnees { get; set; }
 
-        public HomeController(BaseDeDonnees BaseDeDonnees)
+        public HomeController(HockeyRebelsDBContext BaseDeDonnees)
         {
             _BaseDonnees = BaseDeDonnees;
         }
