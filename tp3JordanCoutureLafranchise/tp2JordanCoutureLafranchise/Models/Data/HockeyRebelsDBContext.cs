@@ -214,9 +214,9 @@ namespace tp2JordanCoutureLafranchise.Models.Data
                         );
 
             modelBuilder.Entity<Parent>().HasData(
-                  new Parent() { ParentId = 1, Nom = "Penguins de Pittsburgh", NbJoueurs = 4, SalaireMoyen = 0, Description = "Équipe de hockey sur glace de la LNH basée à Pittsburgh", ImageURL = "/Images/pittsburgh.png" },
-                new Parent() { ParentId = 2, Nom = "Canadiens de Montréal", NbJoueurs = 4, SalaireMoyen = 0, Description = "Équipe de hockey sur glace de la LNH basée à Montréal", ImageURL = "/Images/Mon_projet_1.png" },
-                new Parent() { ParentId = 3, Nom = "Capitals de Washington", NbJoueurs = 4, SalaireMoyen = 0, Description = "Équipe de hockey sur glace de la LNH basée à Washington", ImageURL = "/Images/capitals.png" }
+                  new Parent() { ParentId = 1, Nom = "Penguins de Pittsburgh",  Description = "Équipe de hockey sur glace de la LNH basée à Pittsburgh", ImageURL = "/Images/pittsburgh.png" },
+                new Parent() {ParentId = 2, Nom = "Canadiens de Montréal", Description = "Équipe de hockey sur glace de la LNH basée à Montréal", ImageURL = "/Images/Mon_projet_1.png" },
+                new Parent() {ParentId = 3, Nom = "Capitals de Washington", Description = "Équipe de hockey sur glace de la LNH basée à Washington", ImageURL = "/Images/capitals.png" }
                 );
 
 
