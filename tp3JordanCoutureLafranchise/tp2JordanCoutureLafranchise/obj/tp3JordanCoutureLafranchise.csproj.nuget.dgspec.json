@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\tp3JordanCoutureLafranchise\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj": {}
+    "X:\\Ecole\\6216948_PWT_TP1\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj": {}
   },
   "projects": {
-    "X:\\tp3JordanCoutureLafranchise\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj": {
+    "X:\\Ecole\\6216948_PWT_TP1\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\tp3JordanCoutureLafranchise\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj",
+        "projectUniqueName": "X:\\Ecole\\6216948_PWT_TP1\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj",
         "projectName": "tp3JordanCoutureLafranchise",
-        "projectPath": "X:\\tp3JordanCoutureLafranchise\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj",
+        "projectPath": "X:\\Ecole\\6216948_PWT_TP1\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\tp3JordanCoutureLafranchise.csproj",
         "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "X:\\tp3JordanCoutureLafranchise\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\obj\\",
+        "outputPath": "X:\\Ecole\\6216948_PWT_TP1\\tp3JordanCoutureLafranchise\\tp2JordanCoutureLafranchise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,13 +41,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Session": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.15, )"
             }
           },
           "imports": [
