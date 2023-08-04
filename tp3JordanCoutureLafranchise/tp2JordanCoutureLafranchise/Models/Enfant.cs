@@ -1,12 +1,17 @@
-﻿namespace tp2JordanCoutureLafranchise.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace tp2JordanCoutureLafranchise.Models
 {
     public class Enfant
     {
+        [Key]
         public int Id { get; set; }
+        [ForeignKey("ParentId")]
+        public int ParentId { get; set; }
 
-        public int IdParent { get; set; }
-
-        public Parent? Parent { get; set; }
+        //propriété de navigation
+        public Parent Parent { get; set; }
 
         public string ImageURL { get; set; }
 
