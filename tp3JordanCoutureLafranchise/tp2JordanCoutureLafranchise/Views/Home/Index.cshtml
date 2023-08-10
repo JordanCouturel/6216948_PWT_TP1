@@ -17,12 +17,12 @@
             </div>
         </div>
     </section>
-
     <section class="equipes" style="background: linear-gradient(179.96deg, #2C2C2C 0.04%, #8E5529 56.15%, #000000 123.57%);">
         <div class="container-fluid entitesparent">
             <div class="row">
                 @foreach (var equipe in Model)
                 {
+
                     <Partial name="_Equipe" for="@equipe"></Partial>
                 }
             </div>

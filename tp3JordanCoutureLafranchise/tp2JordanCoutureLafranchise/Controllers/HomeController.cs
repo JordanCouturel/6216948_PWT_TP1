@@ -44,6 +44,8 @@ namespace tp2JordanCoutureLafranchise.Controllers
 
             if (ModelState.IsValid)
             {
+                //var enfantsduparent = _BaseDonnees.Enfants.Where(x => x.ParentId == parentasupprimer.ParentId).ToList();
+                //_BaseDonnees.Remove(enfantsduparent);
                 _BaseDonnees.Parents.Remove(parentasupprimer);
                 _BaseDonnees.SaveChanges();
                 return RedirectToAction("Index", "Home");
